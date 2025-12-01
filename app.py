@@ -10,7 +10,7 @@ import os
 import urllib.request
 
 # 你在 Google Drive 的權重檔 myna.weights.h5
-WEIGHTS_URL = "https://drive.google.com/uc?export=download&id=1gMUXwi20DtmtBU2snacKQNDlrdX8LJV1"
+WEIGHTS_URL = "https://drive.google.com/file/d/1XjxtxZ8oE9ZDsofuUP0BOv8uadw5sxff/view?usp=sharing"
 WEIGHTS_PATH = "myna.weights.h5"
 
 
@@ -60,3 +60,4 @@ if uploaded_file is not None:
     x = preprocess_input(x)
 
     p
+
